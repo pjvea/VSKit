@@ -1,0 +1,22 @@
+{
+  "name": "VSKit",
+  "version": "0.1.0",
+  "summary": "A short description of VSKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/PJ Vea/VSKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "PJ Vea": "pjvea13@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/PJ Vea/VSKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "VSKit/Classes/**/*"
+}
