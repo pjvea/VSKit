@@ -22,7 +22,7 @@ pod 'VSKit'
 
 ## Author
 
-PJ Vea, pjvea13@gmail.com
+PJ Vea
 
 ## License
 
