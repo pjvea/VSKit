@@ -1,6 +1,5 @@
 # VSKit
 
-[![CI Status](https://img.shields.io/travis/PJ Vea/VSKit.svg?style=flat)](https://travis-ci.org/PJ Vea/VSKit)
 [![Version](https://img.shields.io/cocoapods/v/VSKit.svg?style=flat)](https://cocoapods.org/pods/VSKit)
 [![License](https://img.shields.io/cocoapods/l/VSKit.svg?style=flat)](https://cocoapods.org/pods/VSKit)
 [![Platform](https://img.shields.io/cocoapods/p/VSKit.svg?style=flat)](https://cocoapods.org/pods/VSKit)
@@ -10,6 +9,8 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+This pod required iOS `10` and above.
 
 ## Installation
 
@@ -22,7 +23,7 @@ pod 'VSKit'
 
 ## Author
 
-PJ Vea, pjvea13@gmail.com
+PJ Vea - [Vea Software LLC](https://veasoftware.com/)
 
 ## License
 

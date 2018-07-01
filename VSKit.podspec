@@ -8,12 +8,12 @@
 
 Pod::Spec.new do |s|
   s.name             = 'VSKit'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A framework of some usefull general purpose code I have created.'
   s.description      = 'A framework of some usefull general purpose code I have created. This code has been used in production for several projects.'
   s.homepage         = 'https://github.com/pjvea/VSKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'PJ Vea' => 'pjvea13@gmail.com' }
+  s.author           = { 'PJ Vea' => 'pj@veasoftware.com' }
   s.source           = { :git => 'https://github.com/pjvea/VSKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

@@ -35,6 +35,8 @@
 		780EFE5820C8E22A005EFBF3 /* VSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780EFE4D20C8E22A005EFBF3 /* VSView.swift */; };
 		780EFE5920C8E22A005EFBF3 /* VSPlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780EFE4E20C8E22A005EFBF3 /* VSPlist.swift */; };
 		780EFE5A20C8E22A005EFBF3 /* VSCachedThreadLocalHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780EFE4F20C8E22A005EFBF3 /* VSCachedThreadLocalHelper.swift */; };
+		782D929320E960CF00475C3A /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782D929120E960CA00475C3A /* UIViewController+Extensions.swift */; };
+		782D929520E9614300475C3A /* VSCSVExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782D929420E9614300475C3A /* VSCSVExport.swift */; };
 		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
 		B012DE9428EE2E0116D87689FF3A6807 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
@@ -113,6 +115,8 @@
 		780EFE4D20C8E22A005EFBF3 /* VSView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSView.swift; sourceTree = "<group>"; };
 		780EFE4E20C8E22A005EFBF3 /* VSPlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSPlist.swift; sourceTree = "<group>"; };
 		780EFE4F20C8E22A005EFBF3 /* VSCachedThreadLocalHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSCachedThreadLocalHelper.swift; sourceTree = "<group>"; };
+		782D929120E960CA00475C3A /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		782D929420E9614300475C3A /* VSCSVExport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSCSVExport.swift; sourceTree = "<group>"; };
 		7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
@@ -338,6 +342,7 @@
 				780EFE4520C8E22A005EFBF3 /* Array+Extensions.swift */,
 				780EFE4620C8E22A005EFBF3 /* UIImageView+Extensions.swift */,
 				780EFE4720C8E22A005EFBF3 /* UIView+Extensions.swift */,
+				782D929120E960CA00475C3A /* UIViewController+Extensions.swift */,
 				780EFE4820C8E22A005EFBF3 /* UITextView+Extensions.swift */,
 				780EFE4920C8E22A005EFBF3 /* NSPersistentContainer+Extensions.swift */,
 				780EFE4A20C8E22A005EFBF3 /* UILabel+Extensions.swift */,
@@ -353,6 +358,7 @@
 				780EFE4D20C8E22A005EFBF3 /* VSView.swift */,
 				780EFE4E20C8E22A005EFBF3 /* VSPlist.swift */,
 				780EFE4F20C8E22A005EFBF3 /* VSCachedThreadLocalHelper.swift */,
+				782D929420E9614300475C3A /* VSCSVExport.swift */,
 			);
 			name = Classes;
 			path = VSKit/Classes/Classes;
@@ -558,10 +564,12 @@
 			files = (
 				780EFE5920C8E22A005EFBF3 /* VSPlist.swift in Sources */,
 				780EFE5020C8E22A005EFBF3 /* UncachedImage.swift in Sources */,
+				782D929320E960CF00475C3A /* UIViewController+Extensions.swift in Sources */,
 				780EFE5A20C8E22A005EFBF3 /* VSCachedThreadLocalHelper.swift in Sources */,
 				780EFE5420C8E22A005EFBF3 /* UITextView+Extensions.swift in Sources */,
 				780EFE5120C8E22A005EFBF3 /* Array+Extensions.swift in Sources */,
 				780EFE5320C8E22A005EFBF3 /* UIView+Extensions.swift in Sources */,
+				782D929520E9614300475C3A /* VSCSVExport.swift in Sources */,
 				780EFE5620C8E22A005EFBF3 /* UILabel+Extensions.swift in Sources */,
 				780EFE5220C8E22A005EFBF3 /* UIImageView+Extensions.swift in Sources */,
 				780EFE5720C8E22A005EFBF3 /* UITextField+Extensions.swift in Sources */,
