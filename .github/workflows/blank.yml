@@ -10,4 +10,4 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Build
-      run: xcodebuild clean -workspace ./VSKit.xcworkspace -scheme VSKit-Example.xcscheme
+      run: xcodebuild clean -workspace ./Example/VSKit.xcworkspace -scheme VSKit-Example.xcscheme
