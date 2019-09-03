@@ -10,4 +10,4 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Build
-      run: xcodebuild -workspace ./Example/VSKit.xcworkspace -scheme VSKit-Example -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone X,OS=12.4' test | xcpretty
+      run: xcodebuild -workspace ./Example/VSKit.xcworkspace -scheme VSKit-Example -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone X,OS=12.2' test | xcpretty
